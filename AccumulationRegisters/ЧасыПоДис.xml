@@ -127,18 +127,18 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="8f1a7c6f-6d1d-44b6-8c81-146ae80aa4aa">
+			<Dimension uuid="4ec6d4b8-c882-4507-b009-0f0f271df8da">
 				<Properties>
-					<Name>УП</Name>
+					<Name>Группа</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>УП</v8:content>
+							<v8:content>Группа</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.УП</v8:Type>
+						<v8:Type>cfg:CatalogRef.Группа</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -165,18 +165,18 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="4ec6d4b8-c882-4507-b009-0f0f271df8da">
+			<Dimension uuid="aac485f8-8acc-49bd-aa1a-63051503907a">
 				<Properties>
-					<Name>Группа</Name>
+					<Name>Семестр</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа</v8:content>
+							<v8:content>Семестр</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Группа</v8:Type>
+						<v8:Type>cfg:EnumRef.Семестр</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

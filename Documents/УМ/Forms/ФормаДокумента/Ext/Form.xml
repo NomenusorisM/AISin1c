@@ -4,6 +4,9 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -13,16 +16,16 @@
 			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 		</InputField>
-		<Button name="Скачать" id="21">
+		<Button name="Просмотр" id="21">
 			<Type>UsualButton</Type>
-			<CommandName>Form.StandardCommand.Copy</CommandName>
+			<CommandName>Form.Command.ОткрытьМатериал</CommandName>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Скачать</v8:content>
+					<v8:content>Просмотр</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedTooltip name="СкачатьРасширеннаяПодсказка" id="22"/>
+			<ExtendedTooltip name="ПросмотрРасширеннаяПодсказка" id="22"/>
 		</Button>
 		<InputField name="Добавлен" id="7">
 			<DataPath>Объект.Добавлен</DataPath>
@@ -104,4 +107,21 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ОткрытьМатериал" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть материал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть материал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьМатериал</Action>
+		</Command>
+	</Commands>
 </Form>

@@ -31,15 +31,18 @@
 					<DataPath>Объект.Description</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<BackColor>style:ToolTipBackColor</BackColor>
+					<BackColor>style:FieldBackColor</BackColor>
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="OnChange">НаименованиеПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="УчебныйПлан" id="13">
 					<DataPath>Объект.УчебныйПлан</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<BackColor>style:ToolTipBackColor</BackColor>
+					<BackColor>style:FieldBackColor</BackColor>
 					<ContextMenu name="УчебныйПланКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="УчебныйПланРасширеннаяПодсказка" id="15"/>
 				</InputField>
@@ -47,7 +50,7 @@
 					<DataPath>Объект.Набор</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<BackColor>style:ToolTipBackColor</BackColor>
+					<BackColor>style:FieldBackColor</BackColor>
 					<ContextMenu name="НаборКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="НаборРасширеннаяПодсказка" id="12"/>
 				</InputField>
@@ -60,18 +63,6 @@
 			<ContextMenu name="КоличествоСтудентовКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КоличествоСтудентовРасширеннаяПодсказка" id="18"/>
 		</InputField>
-		<CheckBoxField name="АктивнаяГруппа" id="21">
-			<DataPath>Объект.Parent.IsFolder</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Активная группа</v8:content>
-				</v8:item>
-			</Title>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="АктивнаяГруппаКонтекстноеМеню" id="22"/>
-			<ExtendedTooltip name="АктивнаяГруппаРасширеннаяПодсказка" id="23"/>
-		</CheckBoxField>
 		<InputField name="Родитель" id="7">
 			<DataPath>Объект.Parent</DataPath>
 			<EditMode>EnterOnInput</EditMode>

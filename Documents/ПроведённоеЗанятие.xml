@@ -181,7 +181,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.ПроведённоеЗанятие.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -313,7 +313,7 @@
 						<v8:NumberQualifiers>
 							<v8:Digits>10</v8:Digits>
 							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
@@ -386,6 +386,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="babe347f-f421-4454-93a1-98ecf82f0424">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПроведённоеЗанятие.УчебныеМатериалы" category="TabularSection">

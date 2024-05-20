@@ -233,10 +233,10 @@
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>Use</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<DatabaseTablespacesUseMode>Use</DatabaseTablespacesUseMode>
-			<CompatibilityMode>Version8_3_20</CompatibilityMode>
+			<CompatibilityMode>Version8_3_19</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -245,6 +245,7 @@
 			<Subsystem>Документы</Subsystem>
 			<Subsystem>РегистрыНакоплений</Subsystem>
 			<Subsystem>РегистрыСведений</Subsystem>
+			<Subsystem>Отчёты</Subsystem>
 			<Constant>ДлительностьЗанятия</Constant>
 			<Catalog>Дисциплина</Catalog>
 			<Catalog>Группа</Catalog>
@@ -263,6 +264,7 @@
 			<Report>ПосещаемостьЗанятия</Report>
 			<Report>СтудентыПоНаправлениям</Report>
 			<Report>НагрузкаПреподавателей</Report>
+			<DataProcessor>ИмпортЗначений</DataProcessor>
 			<InformationRegister>Расписание</InformationRegister>
 			<AccumulationRegister>ЧасыПоДис</AccumulationRegister>
 		</ChildObjects>

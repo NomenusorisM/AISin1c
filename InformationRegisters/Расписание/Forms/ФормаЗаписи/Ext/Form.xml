@@ -9,6 +9,7 @@
 	<ChildItems>
 		<InputField name="Группы" id="22">
 			<DataPath>Запись.Группы</DataPath>
+			<Visible>false</Visible>
 			<ReadOnly>true</ReadOnly>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ГруппыКонтекстноеМеню" id="23"/>
@@ -16,6 +17,7 @@
 		</InputField>
 		<InputField name="Код" id="25">
 			<DataPath>Запись.Код</DataPath>
+			<Visible>false</Visible>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КодКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="27"/>
